@@ -4,7 +4,7 @@ import {
 } from '@angular/forms';
 
 @Directive({
-    selector: '[inputMask]',
+    selector: '[wcfMask]',
     providers: [{
         provide: NG_VALUE_ACCESSOR,
         useExisting: InputMaskDirective,
@@ -23,7 +23,7 @@ export class WcfMaskDirective implements ControlValueAccessor {
     onTouched: any;
     onChange: any;
 
-    @Input('inputMask') inputMask: string;
+    @Input('wcfMask') inputMask: string;
 
     constructor(private _renderer: Renderer2, private _elementRef: ElementRef) {
 
