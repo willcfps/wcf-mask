@@ -12,7 +12,7 @@ import {
     }]
 })
 
-export class InputMaskDirective implements ControlValueAccessor {
+export class WcfMaskDirective implements ControlValueAccessor {
 
     private REGEXP = /\-|\.|\/|\(|\)|\,|\%|\"|\'|\s| /g;
     private masks = this.getMapTypes();
