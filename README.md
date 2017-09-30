@@ -15,7 +15,7 @@ Uma vez importada a diretiva, basta adicionar ao HTML o selector <b>wcfMask</b> 
 
 
 ### EXEMPLO
-
+app.module.ts
 ```typescript
 
 import { InputMaskDirective } from './directives/input-mask.directive';
@@ -37,7 +37,7 @@ import { InputMaskDirective } from './directives/input-mask.directive';
 })
 export class AppModule { }
 ```
-
+pagina.html
 ```html
 <div >
     <label for="usr">PHONE/CEL:</label>
