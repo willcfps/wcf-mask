@@ -9,7 +9,7 @@ https://www.linkedin.com/in/wcfps/
 Copie o arquivo <b>wcf-mask.directive.ts</b> para a pasta de diretivas do seu projeto. Para que a diretiva seja vista pelo projeto, é necessário importar e declarar no .module.ts.
 ### EXEMPLO
 
-'''typescript
+```typescript
 
 import { InputMaskDirective } from './directives/input-mask.directive';
 
@@ -29,4 +29,4 @@ import { InputMaskDirective } from './directives/input-mask.directive';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-'''
+```
