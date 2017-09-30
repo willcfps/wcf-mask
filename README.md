@@ -11,7 +11,7 @@ CPF, CNPJ, TELEFONE, CELULAR, MONETÁRIO e PERCENTUAL.
 
 Copie o arquivo <b>wcf-mask.directive.ts</b> para a pasta de diretivas do seu projeto. Para que a diretiva seja vista pelo projeto é necessário importar e declarar no .module.ts.
 
-Uma vez importada a diretiva, basta adicionar ao HTML o selector <b>wcfMask</b> e informar o tipo de máscara que deseja aplicar. Ela será refletida tanto no campo quando no ngModel.
+Uma vez importada a diretiva, basta adicionar ao HTML o selector <b>wcfMask</b> e informar o tipo de mascara que deseja aplicar. Ela será refletida tanto no campo quando no ngModel.
 
 
 ### EXEMPLO
