@@ -49,7 +49,7 @@ pagina.html
 </div>
 <div>
     <label>DATE</label>
-    <input type="text"[(ngModel)]="data" wcfMask="DATE">
+    <input type="text" [(ngModel)]="data" wcfMask="DATE">
 </div>
 <div>
     <label>MOEDA</label>
