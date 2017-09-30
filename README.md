@@ -39,32 +39,32 @@ export class AppModule { }
 ```
 pagina.html
 ```html
-<div >
+<div>
     <label for="usr">PHONE/CEL:</label>
-    <input type="text" class="form-control" wcfMask="PHONE">
+    <input type="text" class="form-control" [(ngModel)]="phone" wcfMask="PHONE">
 </div>
-<div >
+<div>
     <label for="usr">CEL:</label>
-    <input type="text" class="form-control" wcfMask="CEL">
+    <input type="text" class="form-control" [(ngModel)]="cel" wcfMask="CEL">
 </div>
-<div >
+<div>
     <label for="pwd">DATE</label>
-    <input type="text" class="form-control" wcfMask="DATE">
+    <input type="text" class="form-control" [(ngModel)]="data" wcfMask="DATE">
 </div>
-<div >
+<div>
     <label for="pwd">MOEDA</label>
-    <input type="text" class="form-control" wcfMask="MONEY">
+    <input type="text" class="form-control" [(ngModel)]="valor" wcfMask="MONEY">
 </div>
-<div >
+<div>
     <label for="pwd">PERCENTUAL</label>
-    <input type="text" class="form-control" wcfMask="PERC">
+    <input type="text" class="form-control" [(ngModel)]="percentual" wcfMask="PERC">
 </div>
-<div >
+<div>
     <label for="pwd">CPF</label>
-    <input type="text" class="form-control" wcfMask="CPF">
+    <input type="text" class="form-control" [(ngModel)]="cpf" wcfMask="CPF">
 </div>
-<div >
+<div>
     <label for="pwd">CNPJ</label>
-    <input type="text" class="form-control" wcfMask="CNPJ">
+    <input type="text" class="form-control" [(ngModel)]="cnpj" wcfMask="CNPJ">
 </div>
 ```
