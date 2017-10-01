@@ -7,7 +7,7 @@ import {
     selector: '[wcfMask]',
     providers: [{
         provide: NG_VALUE_ACCESSOR,
-        useExisting: InputMaskDirective,
+        useExisting: WcfMaskDirective,
         multi: true
     }]
 })
