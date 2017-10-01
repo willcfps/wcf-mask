@@ -18,13 +18,13 @@ Uma vez importada a diretiva, basta adicionar ao HTML o selector <b>wcfMask</b> 
 app.module.ts
 ```typescript
 
-import { InputMaskDirective } from './directives/input-mask.directive';
+import { WcfMaskDirective } from './directives/input-mask.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputMaskDirective
+    WcfMaskDirective
   ],
   imports: [
    
